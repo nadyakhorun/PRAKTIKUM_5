@@ -1,4 +1,4 @@
-#PRAKTIKUM_5
+# PRAKTIKUM_5
 
 NAMA    : NADYA KHAIRUNNISA
 
@@ -17,7 +17,7 @@ KELAS   : TI.22.A1
 
 Buat Dictionary daftar kontak
 
-Nama sebagai key, dan nomor sebagai value
+- Nama sebagai key, dan nomor sebagai value
 - Tampilkan kontaknya Ari
 - Tambah kontak baru dengan nama Riko, nomor 087654544
 - Ubah kontak Dina dengan nomor baru 088999776
@@ -31,53 +31,53 @@ Nama sebagai key, dan nomor sebagai value
 ![TUGAS PRAKTIKUM 5 (8)](https://user-images.githubusercontent.com/115801823/204231879-59898201-eb94-4b1a-a991-fde37d245be8.PNG)
 ![TUGAS PRAKTIKUM 5 (9)](https://user-images.githubusercontent.com/115801823/204232096-0e76da03-ad7f-420e-9e8c-f3283f425236.PNG)
 
-      daftarKontak = {"Nama":"Nomer Telpon"}
-      kontak       = {'Ari':'081267888', 'Dina' : '087677776'}
+            daftarKontak = {"Nama":"Nomer Telpon"}
+            kontak       = {'Ari':'081267888', 'Dina' : '087677776'}
 
-      #print
-      print(30*"═")
-      print("    Nama    |  Nomor Telepon  ") #prinr daftarkontak
-      print(30*"-")
-      print("   # Ari    | ", kontak['Ari']) #print kontak Ari
-      print("   # Dina   | ", kontak['Dina']) #print kontak Dina
-      print(30*"═")
+            #print
+            print(30*"═")
+            print("    Nama    |  Nomor Telepon  ") #prinr daftarkontak
+            print(30*"-")
+            print("   # Ari    | ", kontak['Ari']) #print kontak Ari
+            print("   # Dina   | ", kontak['Dina']) #print kontak Dina
+            print(30*"═")
 
-      #Tampilkan kontaknya Ari
-      print("Tampilkan kontaknya Ari")
-      print("    Ari     | ", kontak['Ari']) #print kontak Ari
-      print(30*"═")
-      #Tambah kontak baru dengan nama Riko, nomor 087654544
-      print("Tambah kontak baru dengan nama Riko, nomor 087654544")
-      kontak['Riko'] = '087654544'
-      print("    Riko    | ", kontak['Riko'])
-      print(30*"═")
+            #Tampilkan kontaknya Ari
+            print("Tampilkan kontaknya Ari")
+            print("    Ari     | ", kontak['Ari']) #print kontak Ari
+            print(30*"═")
+            #Tambah kontak baru dengan nama Riko, nomor 087654544
+            print("Tambah kontak baru dengan nama Riko, nomor 087654544")
+            kontak['Riko'] = '087654544'
+            print("    Riko    | ", kontak['Riko'])
+            print(30*"═")
 
-      #Ubah kontak Dina dengan nomor baru 088999776
-      print("Ubah kontak Dina dengan nomor baru 088999776")
-      kontak['Dina'] = '088999776'
-      print("    Dina    | ", kontak['Dina'])
-      print(30*"═")
+            #Ubah kontak Dina dengan nomor baru 088999776
+            print("Ubah kontak Dina dengan nomor baru 088999776")
+            kontak['Dina'] = '088999776'
+            print("    Dina    | ", kontak['Dina'])
+            print(30*"═")
 
-      #Tampilkan semua Nama
-      print("Tampilkan semua Nama")
-      print(kontak.keys())
-      print(30*"═")
+            #Tampilkan semua Nama
+            print("Tampilkan semua Nama")
+            print(kontak.keys())
+            print(30*"═")
 
-      #Tampilkan semua Nomor
-      print("Tampilkan semua Nomor")
-      print(kontak.values())
-      print(30*"═")
+            #Tampilkan semua Nomor
+            print("Tampilkan semua Nomor")
+            print(kontak.values())
+            print(30*"═")
 
-      #Tampilkan daftar Nama dan nomornya
-      print("Tampilkan daftar Nama dan nomornya")
-      print(kontak.items())
-      print(30*"═")
+            #Tampilkan daftar Nama dan nomornya
+            print("Tampilkan daftar Nama dan nomornya")
+            print(kontak.items())
+            print(30*"═")
 
-      #MengHapus kontak Dina
-      print("Hapus kontak Dina")
-      kontak.pop('Dina')
-      print(kontak.items())
-      print(30*"═")
+            #MengHapus kontak Dina
+            print("Hapus kontak Dina")
+            kontak.pop('Dina')
+            print(kontak.items())
+            print(30*"═")
 2. Hasil RUN
 ![TUGAS PRAKTIKUM 5 (6)](https://user-images.githubusercontent.com/115801823/204232489-2d4899a8-3a5b-4dd0-8a8a-7befc25704a3.PNG)
 ![TUGAS PRAKTIKUM 5 (7)](https://user-images.githubusercontent.com/115801823/204232528-3423bb9d-a381-4acc-84cc-dd14ee00bd67.PNG)
@@ -161,3 +161,23 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 
             else:
                 print("Pilih menu yang tersedia")
+
+2. Hasil RUN
+![TUGAS PRAKTIKUM 5 (1)](https://user-images.githubusercontent.com/115801823/204234078-346847d1-03dd-4ab0-afbd-1268287b3f11.PNG)
+![TUGAS PRAKTIKUM 5 (2)](https://user-images.githubusercontent.com/115801823/204234131-a569cbcf-0b81-4783-88ca-b0ae285efbc5.PNG)
+
+## Penjelasan Program :
+1. Buatlah Dictionary berupa Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS
+2. Lalu inputlah menu pilihan berupa Lihat, Tambah, Ubah, Hapus, Cari, Keluar
+3. Gunakanlah perulangan for, dengan perintah for i in range(len(Nama)):. Fungsi "len" ialah   untuk mengembalikan panjang (jumlah anggota) dari suatu objek.
+4. Lalu inputlah Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS
+5. Lalu mencari nilai akhir dengan perhitungan nilai tugas 30%, nilai uts 35% dan uas 35% , dengan perintah float
+6. Jika ingin melihat dictionary data ketik "L", jika ingin menambah data ketik "T", jika ingin mengubah data ketik "U", jika ingin menghapus ketik "H", jika ingin mencari data ketik "C" dan jika ingin keluar dari data ketik "K"
+7. Lalu cetak dengan perintah print ("Pilih menu yang tersedia")
+8. Selesai
+
+## Flowchart Praktikum_5
+
+![204207537-fdd8a91a-fb21-41d7-a5a6-217ab501b6e7](https://user-images.githubusercontent.com/115801823/204234798-84916f36-676d-4cbe-a03f-747eb08325ce.jpg)
+
+## TERIMA KASIH.
