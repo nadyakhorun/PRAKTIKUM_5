@@ -178,6 +178,7 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 
 ## Flowchart Praktikum_5
 
-![204207537-fdd8a91a-fb21-41d7-a5a6-217ab501b6e7](https://user-images.githubusercontent.com/115801823/204234798-84916f36-676d-4cbe-a03f-747eb08325ce.jpg)
+![WhatsApp Image 2022-11-28 at 20 08 58](https://user-images.githubusercontent.com/115801823/204289385-3330b648-9532-45e3-9b3e-19564e04aa49.jpg)
+
 
 ## TERIMA KASIH.
